@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Contribute List
         with:
-          header: Developers
+          header: Contributers
         uses: akhilmhdh/contributors-readme-action@v1.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
